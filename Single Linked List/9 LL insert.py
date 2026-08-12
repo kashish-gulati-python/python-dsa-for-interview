@@ -61,6 +61,9 @@ class LinkedList:
         self.length += 1
         return True
 
+        # TC -> O(N)
+        # SC -> O(1)
+
 my_linked_list = LinkedList(2)
 my_linked_list.append(3)
 my_linked_list.append(10)

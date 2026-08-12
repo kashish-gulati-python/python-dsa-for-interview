@@ -40,6 +40,9 @@ class LinkedList:
             before = temp
             temp = after
 
+        # TC -> O(N)
+        # SC -> O(1)
+
 my_linked_list = LinkedList(2)
 my_linked_list.append(3)
 my_linked_list.append(10)

@@ -42,6 +42,9 @@ class LinkedList:
             temp.value = value
             return True
         return False
+
+        # TC -> O(1)
+        # SC -> O(1)
     
     # def set_value(self, index, value):
     #     # Edge cases: index < 0, index > length of LL

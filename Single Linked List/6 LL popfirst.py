@@ -42,6 +42,9 @@ class LinkedList:
             self.tail = None
         return temp
 
+        # TC -> O(1)
+        # SC -> O(1)
+
 my_linked_list = LinkedList(2)
 my_linked_list.append(3)
 
