@@ -13,6 +13,7 @@ Note that the five elements can be returned in any order.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 """
 
+# Two Pointers
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
         k = 0
@@ -21,3 +22,5 @@ class Solution:
                 nums[k] = num
                 k += 1
         return k
+# Time: O(n) — one traversal.
+# Space: O(1) — no additional data structure proportional to input size
